@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marinho Empreendimentos</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header id="inicio">
@@ -20,90 +21,7 @@
     <main>
       <section id="casas" class="imoveis">
         <h2>Casas disponíveis</h2>
-        <div class="lista-imoveis">
-          <article class="card-imovel">
-            <img
-              src="casa.jpg"
-              alt="Casa branca com fachada moderna e duas vagas de garagem"
-              width="800"
-              height="600"
-            />
-            <div class="card-conteudo">
-              <h3>Casa branca com vista para o mar em Cabo Branco</h3>
-              <p class="preco">R$ 500.000,00</p>
-              <p>Casa em bairro nobre com vista para o mar.</p>
-              <ul>
-                <li>3 quartos</li>
-                <li>150 m² de área construída</li>
-                <li>Cabo Branco, João Pessoa</li>
-              </ul>
-
-              <a
-                class="botao-contato"
-                href="https://wa.me/5583900000000?text=Casa%20branca%20com%20vista%20para%20o%20mar%20em%20Cabo%20Branco"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Tenho interesse nessa casa em Cabo Branco (abre o WhatsApp em outra aba)"
-                >Tenho interesse</a
-              >
-            </div>
-          </article>
-          <article class="card-imovel">
-            <img
-              src="casa.jpg"
-              alt="Casa branca com fachada moderna e duas vagas de garagem"
-              width="800"
-              height="600"
-              loading="lazy"
-            />
-            <div class="card-conteudo">
-              <h3>Casa branca próxima ao parque no Bessa</h3>
-              <p class="preco">R$ 400.000,00</p>
-              <p>Casa de esquina e próxima ao parque.</p>
-              <ul>
-                <li>2 quartos</li>
-                <li>100 m² de área construída</li>
-                <li>Bessa, João Pessoa</li>
-              </ul>
-
-              <a
-                class="botao-contato"
-                href="https://wa.me/5583900000000?text=Casa%20branca%20pr%C3%B3xima%20ao%20parque%20no%20Bessa"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Tenho interesse nessa casa no Bessa (abre o WhatsApp em outra aba)"
-                >Tenho interesse</a
-              >
-            </div>
-          </article>
-          <article class="card-imovel">
-            <img
-              src="casa.jpg"
-              alt="Casa branca com fachada moderna e duas vagas de garagem"
-              width="800"
-              height="600"
-              loading="lazy"
-            />
-            <div class="card-conteudo">
-              <h3>Casa branca com varanda no centro de João Pessoa</h3>
-              <p class="preco">R$ 350.000,00</p>
-              <p>Casa no centro da cidade próxima ao shopping.</p>
-              <ul>
-                <li>2 quartos</li>
-                <li>100 m² de área construída</li>
-                <li>Centro, João Pessoa</li>
-              </ul>
-              <a
-                class="botao-contato"
-                href="https://wa.me/5583900000000?text=Casa%20branca%20com%20varanda%20no%20centro%20de%20Jo%C3%A3o%20Pessoa"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Tenho interesse nessa casa no centro de João Pessoa (abre o WhatsApp em outra aba)"
-                >Tenho interesse</a
-              >
-            </div>
-          </article>
-        </div>
+        <div class="lista-imoveis"></div>
       </section>
       <section id="contato" class="contato">
         <h2>Nosso Contato</h2>
@@ -118,8 +36,10 @@
       </section>
     </main>
     <footer>
-      <p>&copy; 2026 Marinho Empreendimentos. Todos os direitos reservados.</p>
+      <p>
+        &copy; <span id="ano">2026</span> Marinho Empreendimentos. Todos os
+        direitos reservados.
+      </p>
     </footer>
   </body>
 </html>
-  
